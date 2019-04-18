@@ -1,0 +1,177 @@
+/*-------------
+ 	General
+-------------*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font: normal 16px sans-serif;
+    color: #555;
+}
+.Site{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.Site-content{
+    flex: 1;
+}
+
+ul, nav{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+
+	opacity: 0.9;
+}
+
+a:hover{
+	opacity: 1;
+}
+
+a.btn{
+	color: #fff;
+	border-radius: 4px;
+	text-transform: uppercase;
+	background-color: #2196F3;
+	font-weight: 800;
+	text-align: center;
+}
+
+
+div{
+	display: flex;
+	flex-direction: column;
+	padding: 125px 100px;
+}
+
+@media (max-width: 1000px){
+
+	div{
+		padding: 100px 50px;
+	}
+
+}
+
+@media (max-width: 600px){
+
+	div{
+		padding: 80px 30px;
+	}
+
+}
+
+div h3.title{
+    color: #414a4f;
+    text-align: left;
+	text-transform: capitalize; 
+	font: bold 32px 'Open Sans', sans-serif;
+    margin-bottom: 35px;
+    padding: 0 20px;
+	
+}
+div h4.title{
+    color: #414a4f;
+    text-align: left;
+	text-transform: capitalize; 
+	font: bold 24px 'Open Sans', sans-serif;
+    margin-bottom: 35px;
+    padding: 0 20px;
+
+}
+
+div p{
+	max-width: 800px;
+	margin-bottom: 35px;
+	padding: 0 20px;
+    line-height: 2;
+}
+
+
+
+/*-------------
+ 	Header
+-------------*/
+
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #723BBF;
+	padding: 35px 100px 0;
+}
+
+header h2{
+	font-family: 'Varela Round', sans-serif;
+}
+
+header nav{
+	display: flex;
+}
+
+header nav li{
+	margin: 0 15px;
+}
+
+header nav li:first-child{
+	margin-left: 0;	
+}
+
+header nav li:last-child{
+	margin-right: 0;	
+}
+
+
+
+@media (max-width: 1000px){
+	header{
+		padding: 20px 50px;
+	}
+}
+
+
+@media (max-width: 700px){
+	header{
+		flex-direction: column;		
+	}
+
+	header h2{
+		margin-bottom: 15px;
+	}
+}
+
+
+
+/*-------------
+ 	Footer
+-------------*/
+
+footer{
+	color: #fff;
+	background-color: #723BBF;
+    padding: 60px 0;
+    margin-top: auto auto 0 auto;
+}
+
+
+@media (max-width: 700px){
+
+	footer{
+		padding: 80px 15px;
+	}
+
+}
+
