@@ -1,0 +1,12 @@
+C:\dev\webdemo\newtest\bin\Debug\netcoreapp3.0\newtest.exe
+C:\dev\webdemo\newtest\bin\Debug\netcoreapp3.0\newtest.deps.json
+C:\dev\webdemo\newtest\bin\Debug\netcoreapp3.0\newtest.runtimeconfig.json
+C:\dev\webdemo\newtest\bin\Debug\netcoreapp3.0\newtest.runtimeconfig.dev.json
+C:\dev\webdemo\newtest\bin\Debug\netcoreapp3.0\newtest.dll
+C:\dev\webdemo\newtest\bin\Debug\netcoreapp3.0\newtest.pdb
+C:\dev\webdemo\newtest\obj\Debug\netcoreapp3.0\newtest.csprojAssemblyReference.cache
+C:\dev\webdemo\newtest\obj\Debug\netcoreapp3.0\newtest.csproj.CoreCompileInputs.cache
+C:\dev\webdemo\newtest\obj\Debug\netcoreapp3.0\newtest.AssemblyInfoInputs.cache
+C:\dev\webdemo\newtest\obj\Debug\netcoreapp3.0\newtest.AssemblyInfo.cs
+C:\dev\webdemo\newtest\obj\Debug\netcoreapp3.0\newtest.dll
+C:\dev\webdemo\newtest\obj\Debug\netcoreapp3.0\newtest.pdb

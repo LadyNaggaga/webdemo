@@ -1,0 +1,8 @@
+C:\dev\webdemo\csharp_tutorial\bin\Debug\netcoreapp3.0\csharp_tutorial.exe
+C:\dev\webdemo\csharp_tutorial\bin\Debug\netcoreapp3.0\csharp_tutorial.deps.json
+C:\dev\webdemo\csharp_tutorial\bin\Debug\netcoreapp3.0\csharp_tutorial.runtimeconfig.json
+C:\dev\webdemo\csharp_tutorial\bin\Debug\netcoreapp3.0\csharp_tutorial.runtimeconfig.dev.json
+C:\dev\webdemo\csharp_tutorial\obj\Debug\netcoreapp3.0\csharp_tutorial.csproj.CoreCompileInputs.cache
+C:\dev\webdemo\csharp_tutorial\obj\Debug\netcoreapp3.0\csharp_tutorial.AssemblyInfoInputs.cache
+C:\dev\webdemo\csharp_tutorial\obj\Debug\netcoreapp3.0\csharp_tutorial.AssemblyInfo.cs
+C:\dev\webdemo\csharp_tutorial\obj\Debug\netcoreapp3.0\csharp_tutorial.csprojAssemblyReference.cache
