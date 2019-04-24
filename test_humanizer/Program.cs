@@ -1,6 +1,6 @@
 ﻿using System;
-
-namespace csharp_tutorial
+using Humanizer;
+namespace test_humanizer
 {
     class Program
     {
@@ -13,7 +13,7 @@ namespace csharp_tutorial
         {
             switch(region)
             {
-                case "Helloworld":
+                case "run":
                     Run();
                     break;
                 case "run1":
@@ -27,21 +27,21 @@ namespace csharp_tutorial
         }
         public static void Run()
         {
-            #region Helloworld
-            Console.WriteLine("Hello World!");
+            #region run
+            string singular = "geese".Singularize();
+            Console.WriteLine("Thor " + singular);
             #endregion
         }
         public static void Run1()
         {
             #region run1
-            var name = "Your Name";
-            Console.WriteLine("Hello " + name + "!");
+        
             #endregion
         }
         public static void Run2()
         {
             #region run2
-            Console.WriteLine("Hello World!");
+        
             #endregion
         }
        
