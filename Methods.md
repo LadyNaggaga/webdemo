@@ -19,4 +19,4 @@ Replace the *name* variable with a *names* variable that has a list of names. Th
         }
 ```
 #### Previous - [Strings & Variables](./Strings.md)
-#### Home - [Home](./Readme.md)
+#### Home - [Home](./README.md)

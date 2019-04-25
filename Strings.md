@@ -25,4 +25,4 @@ Console.WriteLine($"Hello {name}!");
 ```
 #### Next - [Methods](./Methods.md)
 #### Previous - [Hello World](./HelloWorld.md)
-#### Home - [Home](./Readme.md)
+#### Home - [Home](./README.md)
