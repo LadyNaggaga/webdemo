@@ -11,11 +11,11 @@ Let's store your name in a variable, then read the value from that variable when
 
 ``` cs --region variables --source-file .\myapp\Program.cs --project .\myapp\myapp.csproj 
 ```
-The first line `var name = "Your Name";` declares a variable, `name` and assigns it a value,`Your Name`. The second line prints out the name.
+The first line `var name = "Your Name";` declares a variable, *name* and assigns it a value,`Your Name`. The second line prints out the name.
 
 ### String Interpolation
 You've been using  `+` to combine variables and constant strings.  There's a cleaner way to do this. 
-Start with including a `$` before the opening quotes of the string. You can place a variable between curly braces `{ variable name}`, and this will tell C# to replace `variable name` with the value of the variable. This is called String interpolation. 
+Start with including a `$` before the opening quotes of the string. You can place a variable between curly braces `{ variable name}`, and this will tell C# to replace `variable name` with the value of the variable. This is called string interpolation. 
 
 ``` cs --region interpolation --source-file .\myapp\Program.cs --project .\myapp\myapp.csproj 
 ```
