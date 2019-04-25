@@ -1,0 +1,24 @@
+# Intro to Programming
+
+### Strings 
+Try modifying the code so that the console says hello to your name, instead of the world (e.g. Hello Rain!).
+
+``` cs --region strings --source-file .\myapp\Program.cs --project .\myapp\myapp.csproj 
+```
+### Variables
+In programming we want to store values in a container so we can use them later; these are called `variables`.
+Let's store your name in a variable, then read the value from that variable when creating the output message. 
+
+``` cs --region variables --source-file .\myapp\Program.cs --project .\myapp\myapp.csproj 
+```
+The first line `var name = "Your Name";` declares a variable, `name` and assigns it a value,`Your Name`. The second line prints out the name.
+
+### String Interpolation
+You've been using  `+` to combine variables and constant strings.  There's a cleaner way to do this. 
+Start with including a `$` before the opening quotes of the string. You can place a variable between curly braces `{ variable name}`, and this will tell C# to replace `variable name` with the value of the variable. This is called String interpolation. 
+
+``` cs --region interpolation --source-file .\myapp\Program.cs --project .\myapp\myapp.csproj 
+```
+#### Next - [Methods](./Methods.md)
+#### Previous - [Hello World](./HelloWorld.md)
+#### Home - [Home](./Readme.md)
