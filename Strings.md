@@ -21,4 +21,4 @@ Start with including a `$` before the opening quotes of the string. You can plac
 ```
 #### Next - [Methods](./Methods.md)
 #### Previous - [Hello World](./HelloWorld.md)
-#### Home - [Home](Readme.md)
+#### Home - [Home](./Readme.md)

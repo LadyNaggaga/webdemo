@@ -12,4 +12,4 @@ Replace the *name* variable with a *names* variable that has a list of names. Th
 ``` cs --region collections --source-file .\myapp\Program.cs --project .\myapp\myapp.csproj 
 ```
 #### Previous - [Strings & Variables](./Strings.md)
-#### Home - [Home](Readme.md)
+#### Home - [Home](./Readme.md)
