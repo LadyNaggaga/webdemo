@@ -11,6 +11,7 @@ In programming we want to store values in a container so we can use them later; 
 Let's store your name in a variable, then read the value from that variable when creating the output message. 
 
 ``` cs --region variables --source-file .\myapp\Program.cs --project .\myapp\myapp.csproj 
+var name = "Rain";
 Console.WriteLine("Hello " + name + "!");
 ```
 The first line `var name = "Your Name";` declares a variable, *name* and assigns it a value,`Your Name`. The second line prints out the name.
