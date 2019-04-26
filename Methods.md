@@ -13,10 +13,10 @@ Replace the *name* variable with a *names* variable that has a list of names. Th
 
 ``` cs --region collections --source-file .\myapp\Program.cs --project .\myapp\myapp.csproj 
  var names = new List<string> { "Rain", "Sage", "Lee" };
-    foreach (var name in names)
-        {
-             Console.WriteLine($"Hello {name.ToUpper()}!");
-        }
+ foreach (var name in names)
+     {
+          Console.WriteLine($"Hello {name.ToUpper()}!");
+     }
 ```
 #### Previous - [Strings & Variables](./Strings.md)
-#### Home - [Home](./README.md)
+#### Home - [Home](./README.md) 

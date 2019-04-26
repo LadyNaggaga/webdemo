@@ -1,7 +1,7 @@
 # Intro to Programming
 
 ### Strings 
-Try modifying the code so that the console says hello to your name, instead of the world (e.g. Hello Rain!).
+Try modifying the code so that the console says hello to *your name*, instead of the *world*. For example, I used the *Rain*. Replace *Rain* with your name.
 
 ``` cs --region strings --source-file .\myapp\Program.cs --project .\myapp\myapp.csproj 
 Console.WriteLine("Hello Rain");
@@ -18,7 +18,7 @@ The first line `var name = "Your Name";` declares a variable, *name* and assigns
 
 ### String Interpolation
 You've been using  `+` to combine variables and constant strings.  There's a cleaner way to do this. 
-Start with including a `$` before the opening quotes of the string. You can place a variable between curly braces `{ variable name}`, and this will tell C# to replace `variable name` with the value of the variable. This is called string interpolation. 
+Start with including a `$` before the opening quotes of the string. Now, place a variable between curly braces `{ variable name}`, and this will tell C# to replace `variable name` with the value of the variable. This is called string interpolation. 
 
 ``` cs --region interpolation --source-file .\myapp\Program.cs --project .\myapp\myapp.csproj 
 var name = "Rain";
