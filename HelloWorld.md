@@ -1,7 +1,7 @@
 # Intro to Programming
 
 ### Run your First Program
-Just click the `run` icon :arrow_forward: to get started.
+Just click the `run` icon to get started.
 
 ``` cs --region intro --source-file .\myapp\Program.cs --project .\myapp\myapp.csproj 
 Console.WriteLine("Hello World!");
